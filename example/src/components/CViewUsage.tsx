@@ -1,5 +1,5 @@
 import React from 'react';
-import { CView, CText } from 'rn-fast-ui';
+import { CView, CText } from 'rn-faster-ui';
 import { screenHeight } from '../../../src/components/utils/dimensions';
 
 const CViewUsage = () => {

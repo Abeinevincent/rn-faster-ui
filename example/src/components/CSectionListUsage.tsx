@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
-import { CSafeAreaView, CSectionList, CText, CView } from 'rn-fast-ui';
+import { CSafeAreaView, CSectionList, CText, CView } from 'rn-faster-ui';
 
 const DATA = [
   {

@@ -38,7 +38,7 @@ Because the component extends all the props of React Native's `TouchableOpacity`
 import * as React from 'react';
 
 // import { StyleSheet, View } from 'react-native';
-import { CButton, CIcon, CText } from 'rn-fast-ui';
+import { CButton, CIcon, CText } from 'rn-faster-ui';
 
 export default function ButtonUsage() {
   return (

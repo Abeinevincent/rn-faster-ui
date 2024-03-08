@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CFlatList } from 'rn-fast-ui';
+import { CFlatList } from 'rn-faster-ui';
 import { CustomButton } from './reusable/CustomButton';
 
 type ItemData = {

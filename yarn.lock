@@ -11456,9 +11456,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rn-fast-ui-example@workspace:example":
+"rn-faster-ui-example@workspace:example":
   version: 0.0.0-use.local
-  resolution: "rn-fast-ui-example@workspace:example"
+  resolution: "rn-faster-ui-example@workspace:example"
   dependencies:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
@@ -11472,9 +11472,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"rn-fast-ui@workspace:.":
+"rn-faster-ui@workspace:.":
   version: 0.0.0-use.local
-  resolution: "rn-fast-ui@workspace:."
+  resolution: "rn-faster-ui@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^17.0.2
     "@evilmartians/lefthook": ^1.5.0

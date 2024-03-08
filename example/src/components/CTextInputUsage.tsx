@@ -1,5 +1,5 @@
 import React from 'react';
-import { CTextInput } from 'rn-fast-ui';
+import { CTextInput } from 'rn-faster-ui';
 
 const CTextInputUsage = () => {
   return (

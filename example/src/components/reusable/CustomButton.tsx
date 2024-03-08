@@ -1,5 +1,5 @@
 import React from 'react';
-import { CButton, CText } from 'rn-fast-ui';
+import { CButton, CText } from 'rn-faster-ui';
 
 type ItemData = {
   id: string;

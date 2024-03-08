@@ -1,5 +1,5 @@
 import React from 'react';
-import { CText } from 'rn-fast-ui';
+import { CText } from 'rn-faster-ui';
 
 const CTextUsage = () => {
   return (
