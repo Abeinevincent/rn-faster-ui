@@ -27,7 +27,7 @@ Built with cross-platform compatibility in mind, components seamlessly adapt to 
 ## Installation
 
 ```sh
-npm install rn-faster-ui
+npm install --save rn-faster-ui
 ```
 
 ## Usage
