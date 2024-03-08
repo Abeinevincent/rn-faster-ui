@@ -1,11 +1,6 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
-import {
-  CSafeAreaView,
-  CSectionList,
-  CText,
-  CView,
-} from 'react-native-fast-ui';
+import { CSafeAreaView, CSectionList, CText, CView } from 'react-native-fastui';
 
 const DATA = [
   {

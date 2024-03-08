@@ -1,5 +1,5 @@
 {
-  "name": "react-native-fast-ui",
+  "name": "react-native-fastui",
   "version": "0.1.0",
   "description": "A UI library for building react native apps faster",
   "main": "lib/commonjs/index",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-fast-ui-example",
+    "example": "yarn workspace react-native-fastui-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -41,14 +41,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Abeinevincent/react-native-fast-ui.git"
+    "url": "git+https://github.com/Abeinevincent/react-native-fastui.git"
   },
   "author": "Abeinevincent <codewithvicent@gmail.com> (https://github.com/Abeinevincent)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Abeinevincent/react-native-fast-ui/issues"
+    "url": "https://github.com/Abeinevincent/react-native-fastui/issues"
   },
-  "homepage": "https://github.com/Abeinevincent/react-native-fast-ui#readme",
+  "homepage": "https://github.com/Abeinevincent/react-native-fastui#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

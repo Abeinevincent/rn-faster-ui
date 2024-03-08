@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { CImage, CScrollView } from 'react-native-fast-ui';
+import { CImage, CScrollView } from 'react-native-fastui';
 import CTextUsage from './components/CTextUsage';
 import CViewUsage from './components/CViewUsage';
 import ButtonUsage from './components/CButtonUsage';

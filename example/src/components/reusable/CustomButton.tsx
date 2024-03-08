@@ -1,5 +1,5 @@
 import React from 'react';
-import { CButton, CText } from 'react-native-fast-ui';
+import { CButton, CText } from 'react-native-fastui';
 
 type ItemData = {
   id: string;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CFlatList } from 'react-native-fast-ui';
+import { CFlatList } from 'react-native-fastui';
 import { CustomButton } from './reusable/CustomButton';
 
 type ItemData = {

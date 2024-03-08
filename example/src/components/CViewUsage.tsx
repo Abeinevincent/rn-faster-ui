@@ -1,5 +1,5 @@
 import React from 'react';
-import { CView, CText } from 'react-native-fast-ui';
+import { CView, CText } from 'react-native-fastui';
 import { screenHeight } from '../../../src/components/utils/dimensions';
 
 const CViewUsage = () => {

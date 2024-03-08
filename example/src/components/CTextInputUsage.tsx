@@ -1,5 +1,5 @@
 import React from 'react';
-import { CTextInput } from 'react-native-fast-ui';
+import { CTextInput } from 'react-native-fastui';
 
 const CTextInputUsage = () => {
   return (

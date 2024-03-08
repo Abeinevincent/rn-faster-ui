@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 // import { StyleSheet, View } from 'react-native';
-import { CButton, CIcon, CText } from 'react-native-fast-ui';
+import { CButton, CIcon, CText } from 'react-native-fastui';
 import { primaryColor } from '../utils/colors';
 
 export default function ButtonUsage() {

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-fast-ui": ["./src/index"]
+      "react-native-fastui": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

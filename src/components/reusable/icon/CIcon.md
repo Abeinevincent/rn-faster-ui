@@ -23,7 +23,7 @@ This component utilises `react-native-vector-icons` library which has additional
 
 ```jsx
 import React from 'react';
-import { CIcon } from 'react-native-fast-ui';
+import { CIcon } from 'react-native-fastui';
 
 const MyComponent = () => {
   return <CIcon name="home" family="FontAwesome" size={30} color="blue" />;
