@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CView Component renders children correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "green",
+      "borderRadius": 10,
+      "height": 300,
+      "justifyContent": "center",
+      "paddingVertical": 93.38000000000001,
+      "width": 200,
+    }
+  }
+  testID="cview"
+>
+  <Text
+    style={
+      [
+        {
+          "color": "black",
+          "fontSize": 16,
+          "writingDirection": "auto",
+        },
+        undefined,
+      ]
+    }
+    testID="text"
+  >
+    Child Component
+  </Text>
+</View>
+`;

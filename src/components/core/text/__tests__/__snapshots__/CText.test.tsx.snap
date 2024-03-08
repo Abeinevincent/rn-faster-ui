@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CText Component renders correctly with default props 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "black",
+        "fontSize": 16,
+        "writingDirection": "auto",
+      },
+      undefined,
+    ]
+  }
+  testID="text"
+>
+  Default Text
+</Text>
+`;

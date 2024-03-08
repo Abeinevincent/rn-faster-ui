@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CSectionList component renders correctly with provided data 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "backgroundColor": "white",
+      "height": 1200.6000000000001,
+      "width": 675,
+    }
+  }
+  data={
+    [
+      {
+        "data": [
+          "Pizza",
+          "Burger",
+          "Risotto",
+        ],
+        "title": "Main dishes",
+      },
+      {
+        "data": [
+          "French Fries",
+          "Onion Rings",
+          "Fried Shrimps",
+        ],
+        "title": "Sides",
+      },
+      {
+        "data": [
+          "Water",
+          "Coke",
+          "Beer",
+        ],
+        "title": "Drinks",
+      },
+      {
+        "data": [
+          "Cheese Cake",
+          "Ice Cream",
+        ],
+        "title": "Desserts",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  nestedScrollEnabled={true}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  renderItem={[Function]}
+  scrollEventThrottle={0.0001}
+  stickyHeaderIndices={
+    [
+      0,
+      5,
+    ]
+  }
+  testID="CSectionList"
+>
+  <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        bgc="white"
+        style={
+          [
+            {
+              "backgroundColor": "white",
+              "color": "black",
+              "fontSize": 25,
+              "writingDirection": "auto",
+            },
+            undefined,
+          ]
+        }
+        testID="text"
+      >
+        Main dishes
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        mv={8}
+        ph={50}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#f9c2ff",
+            "borderRadius": 10,
+            "height": "auto",
+            "justifyContent": "center",
+            "marginVertical": 8,
+            "paddingHorizontal": 50,
+            "paddingVertical": 93.38000000000001,
+            "width": "auto",
+          }
+        }
+        testID="cview"
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "black",
+                "fontSize": 24,
+                "writingDirection": "auto",
+              },
+              undefined,
+            ]
+          }
+          testID="text"
+        >
+          Pizza
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        mv={8}
+        ph={50}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#f9c2ff",
+            "borderRadius": 10,
+            "height": "auto",
+            "justifyContent": "center",
+            "marginVertical": 8,
+            "paddingHorizontal": 50,
+            "paddingVertical": 93.38000000000001,
+            "width": "auto",
+          }
+        }
+        testID="cview"
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "black",
+                "fontSize": 24,
+                "writingDirection": "auto",
+              },
+              undefined,
+            ]
+          }
+          testID="text"
+        >
+          Burger
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        mv={8}
+        ph={50}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#f9c2ff",
+            "borderRadius": 10,
+            "height": "auto",
+            "justifyContent": "center",
+            "marginVertical": 8,
+            "paddingHorizontal": 50,
+            "paddingVertical": 93.38000000000001,
+            "width": "auto",
+          }
+        }
+        testID="cview"
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "black",
+                "fontSize": 24,
+                "writingDirection": "auto",
+              },
+              undefined,
+            ]
+          }
+          testID="text"
+        >
+          Risotto
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    />
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        bgc="white"
+        style={
+          [
+            {
+              "backgroundColor": "white",
+              "color": "black",
+              "fontSize": 25,
+              "writingDirection": "auto",
+            },
+            undefined,
+          ]
+        }
+        testID="text"
+      >
+        Sides
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        mv={8}
+        ph={50}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#f9c2ff",
+            "borderRadius": 10,
+            "height": "auto",
+            "justifyContent": "center",
+            "marginVertical": 8,
+            "paddingHorizontal": 50,
+            "paddingVertical": 93.38000000000001,
+            "width": "auto",
+          }
+        }
+        testID="cview"
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "black",
+                "fontSize": 24,
+                "writingDirection": "auto",
+              },
+              undefined,
+            ]
+          }
+          testID="text"
+        >
+          French Fries
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        mv={8}
+        ph={50}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#f9c2ff",
+            "borderRadius": 10,
+            "height": "auto",
+            "justifyContent": "center",
+            "marginVertical": 8,
+            "paddingHorizontal": 50,
+            "paddingVertical": 93.38000000000001,
+            "width": "auto",
+          }
+        }
+        testID="cview"
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "black",
+                "fontSize": 24,
+                "writingDirection": "auto",
+              },
+              undefined,
+            ]
+          }
+          testID="text"
+        >
+          Onion Rings
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        mv={8}
+        ph={50}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#f9c2ff",
+            "borderRadius": 10,
+            "height": "auto",
+            "justifyContent": "center",
+            "marginVertical": 8,
+            "paddingHorizontal": 50,
+            "paddingVertical": 93.38000000000001,
+            "width": "auto",
+          }
+        }
+        testID="cview"
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "black",
+                "fontSize": 24,
+                "writingDirection": "auto",
+              },
+              undefined,
+            ]
+          }
+          testID="text"
+        >
+          Fried Shrimps
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    />
+    <View
+      style={
+        {
+          "height": 0,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

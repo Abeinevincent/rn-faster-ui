@@ -1,22 +1,55 @@
-import { NativeModules, Platform } from 'react-native';
+import { CText } from './components/core/text/CText';
+import { CView } from './components/core/view/CView';
+import { CScrollView } from './components/core/scrollview/CScrollView';
+import { CIcon } from './components/reusable/icon/CIcon';
+import { CButton } from './components/core/button';
+import { CTextInput } from './components/core/input/textinput/CTextInput';
+import { CImage } from './components/core/image/CImage';
+import { CFlatList } from './components/core/flatlist/CFlatList';
+import { CSectionList } from './components/core/sectionlist/CSectionList';
+import { CSafeAreaView } from './components/core/safeareaview/CSafeAreaView';
 
-const LINKING_ERROR =
-  `The package 'react-native-fast-ui' doesn't seem to be linked. Make sure: \n\n` +
-  Platform.select({ ios: "- You have run 'pod install'\n", default: '' }) +
-  '- You rebuilt the app after installing the package\n' +
-  '- You are not using Expo Go\n';
+import { screenWidth, screenHeight } from './components/utils/dimensions';
 
-const FastUi = NativeModules.FastUi
-  ? NativeModules.FastUi
-  : new Proxy(
-      {},
-      {
-        get() {
-          throw new Error(LINKING_ERROR);
-        },
-      }
-    );
+// Export the CText component and its interface
+export { CText };
+export type { ICText } from './components/core/text/CText.types';
 
-export function multiply(a: number, b: number): Promise<number> {
-  return FastUi.multiply(a, b);
-}
+// Export the CView and its interface
+export { CView };
+export type { ICView } from './components/core/view/CView.types';
+
+// Export the CScrollView and its interface
+export { CScrollView };
+export type { ICScrollView } from './components/core/scrollview/CScrollView.type';
+
+// Export CIcon and its interface
+export { CIcon };
+export { type ICIcon } from './components/reusable/icon/CIcon';
+
+// Export CButton and its interface
+export { CButton };
+export { type ICButton } from './components/core/button/CButton.type';
+
+// Export CTextInput and its interface
+export { CTextInput };
+export { type ICTextInput } from './components/core/input/textinput/CTextInput.type';
+
+// Export CImage component and its interface
+export { CImage };
+export { type ICImage } from './components/core/image/CImage.type';
+
+// Export device/screen dimensions
+export { screenWidth, screenHeight };
+
+// Export CFlatList and its interface
+export { CFlatList };
+export { type ICFlatList } from './components/core/flatlist/CFlatList.type';
+
+// Export CFlatList and its interface
+export { CSectionList };
+export { type ICSectionList } from './components/core/sectionlist/CSectionList.type';
+
+// Export CSafeAreaView and its interface
+export { CSafeAreaView };
+export { type ICSafeAreaView } from './components/core/safeareaview/CSafeAreaView.type';

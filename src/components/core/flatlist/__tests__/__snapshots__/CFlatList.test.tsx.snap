@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CFlatList component renders correctly with provided data 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "backgroundColor": "white",
+      "height": "auto",
+      "width": "auto",
+    }
+  }
+  data={
+    [
+      {
+        "id": "1",
+        "title": "First Item",
+      },
+      {
+        "id": "2",
+        "title": "Second Item",
+      },
+      {
+        "id": "3",
+        "title": "Third Item",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  nestedScrollEnabled={true}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={0.0001}
+  stickyHeaderIndices={[]}
+  testID="CFlatList"
+  viewabilityConfigCallbackPairs={[]}
+>
+  <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontSize": 16,
+              "writingDirection": "auto",
+            },
+            undefined,
+          ]
+        }
+        testID="text"
+      >
+        First Item
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontSize": 16,
+              "writingDirection": "auto",
+            },
+            undefined,
+          ]
+        }
+        testID="text"
+      >
+        Second Item
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontSize": 16,
+              "writingDirection": "auto",
+            },
+            undefined,
+          ]
+        }
+        testID="text"
+      >
+        Third Item
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
