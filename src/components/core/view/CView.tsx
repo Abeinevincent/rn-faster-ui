@@ -2,31 +2,24 @@ import React from 'react';
 import { View, Platform, type ViewStyle } from 'react-native';
 import type { ICView } from './CView.types';
 import { StyleSheet } from 'react-native';
-import { screenHeight } from '../../utils/dimensions';
 import { viewStyleMapper } from '../../utils/stylemapper';
 import { CText } from '../text/CText';
 
 export const CView: React.FC<ICView> = ({
   style: additionalStyles,
   children,
-  w,
-  h,
-  bgc,
   ai,
-  jc,
-  br,
-  pv,
   ...rest
 }) => {
   // Create default style object
   const viewStyle: ViewStyle = {
-    width: w ? w : 'auto',
-    height: h ? h : 'auto',
-    backgroundColor: bgc ? bgc : 'teal',
+    // width: w ? w : 'auto',
+    // height: h ? h : 'auto',
+    // backgroundColor: bgc ? bgc : 'teal',
     alignItems: ai ? ai : 'center',
-    justifyContent: jc ? jc : 'center',
-    borderRadius: br ? br : 10,
-    paddingVertical: pv ? pv : screenHeight * 0.07,
+    // justifyContent: jc ? jc : 'center',
+    // borderRadius: br ? br : 10,
+    // paddingVertical: pv ? pv : screenHeight * 0.07,
   };
 
   // Iterate through props and apply corresponding style props dynamically
