@@ -12,19 +12,16 @@ A custom `SectionList` component with additional styling capabilities to enhance
 ### `w`
 
 - Type: `number`
-- Default: `screenWidth * 0.9`
 - Description: Width of the SectionList. If not provided, it defaults to 90% of the screen width.
 
 ### `h`
 
 - Type: `number`
-- Default: `screenHeight * 0.9`
 - Description: Height of the SectionList. If not provided, it defaults to 90% of the screen height.
 
 ### `bgc`
 
 - Type: `string`
-- Default: `'red'`
 - Description: Background color of the SectionList. If not provided, it defaults to red.
 
 ### `...rest`

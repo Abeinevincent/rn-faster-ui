@@ -8,17 +8,10 @@ import type { ICView } from '../view/CView.types';
 export const CScrollView: React.FC<ICScrollView> = ({
   contentContainerStyle: additionalStyles,
   children,
-  w,
-  h,
-  bgc,
   ...rest
 }) => {
   // Create style object
-  const scrollViewStyle: ViewStyle = {
-    width: w,
-    height: h,
-    backgroundColor: bgc ? bgc : 'white',
-  };
+  const scrollViewStyle: ViewStyle = {};
 
   // Iterate through props and apply corresponding style props dynamically
   Object.keys(rest).forEach((prop) => {

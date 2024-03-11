@@ -4,19 +4,9 @@ import type { ICFlatList } from './CFlatList.type';
 import { viewStyleMapper } from '../../utils/stylemapper';
 import type { ICView } from '../view/CView.types';
 
-const CFlatList = <T,>({
-  contentContainerStyle,
-  w,
-  h,
-  bgc,
-  ...rest
-}: ICFlatList<T>) => {
+const CFlatList = <T,>({ contentContainerStyle, ...rest }: ICFlatList<T>) => {
   // Create default style object
-  const flatListStyle: ViewStyle = {
-    width: w ? w : 'auto',
-    height: h ? h : 'auto',
-    backgroundColor: bgc ? bgc : 'white',
-  };
+  const flatListStyle: ViewStyle = {};
 
   // Iterate through props and apply corresponding style props dynamically
   Object.keys(rest).forEach((prop) => {
@@ -37,7 +27,6 @@ const CFlatList = <T,>({
   return (
     <FlatList
       testID="CFlatList"
-      nestedScrollEnabled={rest.nestedScrollEnabled || true}
       {...rest}
       contentContainerStyle={combinedStyles}
     />
