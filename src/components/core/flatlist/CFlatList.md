@@ -12,19 +12,16 @@ A custom `FlatList` component with additional styling capabilities to enhance fa
 ### `w`
 
 - Type: `number`
-- Default: `screenWidth * 0.9`
 - Description: Width of the FlatList. If not provided, it defaults to 90% of the screen width.
 
 ### `h`
 
 - Type: `number`
-- Default: `screenHeight * 0.9`
 - Description: Height of the FlatList. If not provided, it defaults to 90% of the screen height.
 
 ### `bgc`
 
 - Type: `string`
-- Default: `'red'`
 - Description: Background color of the FlatList. If not provided, it defaults to red.
 
 ### `...rest`
