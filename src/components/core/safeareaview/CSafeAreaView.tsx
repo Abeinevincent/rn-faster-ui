@@ -7,10 +7,13 @@ import type { ICSafeAreaView } from './CSafeAreaView.type';
 export const CSafeAreaView: React.FC<ICSafeAreaView> = ({
   style: additionalStyles,
   children,
+  bgc,
   ...rest
 }) => {
   // Create default style object
-  const safeAreaViewStyle: ViewStyle = {};
+  const safeAreaViewStyle: ViewStyle = {
+    backgroundColor: bgc ? bgc : 'white',
+  };
 
   // Iterate through props and apply corresponding style props dynamically
   Object.keys(rest).forEach((prop) => {

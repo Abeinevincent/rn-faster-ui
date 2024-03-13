@@ -2,18 +2,14 @@
 
 exports[`CView Component renders children correctly 1`] = `
 <View
+  h={300}
   style={
     {
-      "alignItems": "center",
       "backgroundColor": "green",
-      "borderRadius": 10,
-      "height": 300,
-      "justifyContent": "center",
-      "paddingVertical": 93.38000000000001,
-      "width": 200,
     }
   }
   testID="cview"
+  w={200}
 >
   <Text
     style={

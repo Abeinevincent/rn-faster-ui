@@ -5,8 +5,6 @@ exports[`CSectionList component renders correctly with provided data 1`] = `
   contentContainerStyle={
     {
       "backgroundColor": "white",
-      "height": 1200.6000000000001,
-      "width": 675,
     }
   }
   data={
@@ -47,7 +45,6 @@ exports[`CSectionList component renders correctly with provided data 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   keyExtractor={[Function]}
-  nestedScrollEnabled={true}
   onContentSizeChange={[Function]}
   onLayout={[Function]}
   onMomentumScrollBegin={[Function]}
@@ -99,15 +96,9 @@ exports[`CSectionList component renders correctly with provided data 1`] = `
         ph={50}
         style={
           {
-            "alignItems": "center",
             "backgroundColor": "#f9c2ff",
-            "borderRadius": 10,
-            "height": "auto",
-            "justifyContent": "center",
             "marginVertical": 8,
             "paddingHorizontal": 50,
-            "paddingVertical": 93.38000000000001,
-            "width": "auto",
           }
         }
         testID="cview"
@@ -139,15 +130,9 @@ exports[`CSectionList component renders correctly with provided data 1`] = `
         ph={50}
         style={
           {
-            "alignItems": "center",
             "backgroundColor": "#f9c2ff",
-            "borderRadius": 10,
-            "height": "auto",
-            "justifyContent": "center",
             "marginVertical": 8,
             "paddingHorizontal": 50,
-            "paddingVertical": 93.38000000000001,
-            "width": "auto",
           }
         }
         testID="cview"
@@ -179,15 +164,9 @@ exports[`CSectionList component renders correctly with provided data 1`] = `
         ph={50}
         style={
           {
-            "alignItems": "center",
             "backgroundColor": "#f9c2ff",
-            "borderRadius": 10,
-            "height": "auto",
-            "justifyContent": "center",
             "marginVertical": 8,
             "paddingHorizontal": 50,
-            "paddingVertical": 93.38000000000001,
-            "width": "auto",
           }
         }
         testID="cview"
@@ -247,15 +226,9 @@ exports[`CSectionList component renders correctly with provided data 1`] = `
         ph={50}
         style={
           {
-            "alignItems": "center",
             "backgroundColor": "#f9c2ff",
-            "borderRadius": 10,
-            "height": "auto",
-            "justifyContent": "center",
             "marginVertical": 8,
             "paddingHorizontal": 50,
-            "paddingVertical": 93.38000000000001,
-            "width": "auto",
           }
         }
         testID="cview"
@@ -287,15 +260,9 @@ exports[`CSectionList component renders correctly with provided data 1`] = `
         ph={50}
         style={
           {
-            "alignItems": "center",
             "backgroundColor": "#f9c2ff",
-            "borderRadius": 10,
-            "height": "auto",
-            "justifyContent": "center",
             "marginVertical": 8,
             "paddingHorizontal": 50,
-            "paddingVertical": 93.38000000000001,
-            "width": "auto",
           }
         }
         testID="cview"
@@ -327,15 +294,9 @@ exports[`CSectionList component renders correctly with provided data 1`] = `
         ph={50}
         style={
           {
-            "alignItems": "center",
             "backgroundColor": "#f9c2ff",
-            "borderRadius": 10,
-            "height": "auto",
-            "justifyContent": "center",
             "marginVertical": 8,
             "paddingHorizontal": 50,
-            "paddingVertical": 93.38000000000001,
-            "width": "auto",
           }
         }
         testID="cview"

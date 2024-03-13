@@ -1,17 +1,16 @@
 import * as React from 'react';
-import { CImage, CScrollView } from 'rn-faster-ui';
+import { CImage, CPhoneNumberInput, CScrollView } from 'rn-faster-ui';
 import CTextUsage from './components/CTextUsage';
 import CViewUsage from './components/CViewUsage';
 import ButtonUsage from './components/CButtonUsage';
 import CTextInputUsage from './components/CTextInputUsage';
-import CFlatListUsage from './components/CFlatListUsage';
-import CSectionListUsage from './components/CSectionListUsage';
 
 export default function App() {
   return (
-    <CScrollView w={'100%'} h={'auto'} p={20} g={20} pv={20}>
+    <CScrollView bgc="white" w={'100%'} h={'auto'} p={20} g={20} pv={20}>
       {/* CText component usage **************************************************  */}
       <CTextUsage />
+      <CPhoneNumberInput />
 
       {/* CView component usage **************************************************  */}
       <CViewUsage />
@@ -23,18 +22,20 @@ export default function App() {
       <CTextInputUsage />
 
       {/* CFlatList component usage ************************************************** */}
-      <CSectionListUsage />
+      {/* <CSectionListUsage /> */}
 
       {/* CFlatList component usage ************************************************** */}
-      <CFlatListUsage />
+      {/* <CFlatListUsage /> */}
 
       {/* CImage component usage ************************************************** */}
-      <CImage w={200} of="cover" source={require('./assets/download.jpeg')} />
+      <CImage w={190} h={500} source={require('./assets/download.jpeg')} />
+
       <CImage
-        w={'80%'}
-        of="contain"
+        w={200}
+        h={200}
+        // of="contain"
         source={{
-          uri: 'https://www.shutterstock.com/image-photo/kampala-city-by-night-260nw-1237092538.jpg',
+          uri: 'https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg',
         }}
       />
     </CScrollView>

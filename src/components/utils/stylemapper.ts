@@ -135,6 +135,8 @@ export const imageStyleProps = () => {
     oc: 'overlayColor',
     tc: 'tintColor',
     of: 'objectFit',
+    w: 'width',
+    h: 'height',
   };
   return styleMapping;
 };

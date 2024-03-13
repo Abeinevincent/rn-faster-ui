@@ -3,23 +3,16 @@ import { View, Platform, type ViewStyle } from 'react-native';
 import type { ICView } from './CView.types';
 import { StyleSheet } from 'react-native';
 import { viewStyleMapper } from '../../utils/stylemapper';
-import { CText } from '../text/CText';
 
 export const CView: React.FC<ICView> = ({
   style: additionalStyles,
   children,
-  ai,
+  bgc,
   ...rest
 }) => {
   // Create default style object
   const viewStyle: ViewStyle = {
-    // width: w ? w : 'auto',
-    // height: h ? h : 'auto',
-    // backgroundColor: bgc ? bgc : 'teal',
-    alignItems: ai ? ai : 'center',
-    // justifyContent: jc ? jc : 'center',
-    // borderRadius: br ? br : 10,
-    // paddingVertical: pv ? pv : screenHeight * 0.07,
+    backgroundColor: bgc ? bgc : 'white',
   };
 
   // Iterate through props and apply corresponding style props dynamically
@@ -43,19 +36,7 @@ export const CView: React.FC<ICView> = ({
   return (
     <>
       <View testID="cview" {...rest} style={combinedStyles}>
-        {children ? (
-          children
-        ) : (
-          <>
-            <CText children={'Default CView Component'} c="white" />
-            <CText
-              numberOfLines={1}
-              ph={10}
-              children={'Only pass props you would like to change'}
-              c="white"
-            />
-          </>
-        )}
+        {children}
       </View>
     </>
   );

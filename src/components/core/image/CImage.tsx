@@ -6,10 +6,13 @@ import type { ICImage } from './CImage.type';
 
 export const CImage: React.FC<ICImage> = ({
   style: additionalStyles,
+  of,
   ...rest
 }) => {
   // Create default style object
-  const imageStyle: ImageStyle = {};
+  const imageStyle: ImageStyle = {
+    objectFit: of ? of : 'cover',
+  };
 
   // Iterate through props and apply corresponding style props dynamically
   Object.keys(rest).forEach((prop) => {

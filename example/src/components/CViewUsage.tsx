@@ -1,5 +1,5 @@
 import React from 'react';
-import { CView, CText } from 'rn-faster-ui';
+import { CView, CText, colors } from 'rn-faster-ui';
 import { screenHeight } from '../../../src/components/utils/dimensions';
 
 const CViewUsage = () => {
@@ -14,7 +14,7 @@ const CViewUsage = () => {
       
       */}
 
-      <CView />
+      <CView bgc={colors.red?.[400]} children={<CText>Hello</CText>} />
 
       {/* OR */}
       {/*

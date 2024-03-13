@@ -6,10 +6,13 @@ import React from 'react';
 
 export const CSectionList = <ItemT, SectionT>({
   contentContainerStyle,
+  bgc,
   ...rest
 }: ICSectionList<ItemT, SectionT>) => {
   // Create default style object
-  const flatListStyle: ViewStyle = {};
+  const flatListStyle: ViewStyle = {
+    backgroundColor: bgc ? bgc : 'white',
+  };
 
   // Iterate through props and apply corresponding style props dynamically
   Object.keys(rest).forEach((prop) => {

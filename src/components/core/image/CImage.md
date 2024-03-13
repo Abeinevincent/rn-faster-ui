@@ -6,8 +6,9 @@ The `CImage` component is a custom image component designed for use in React Nat
 
 ### Universal Props
 
-- `w`: (Optional) Width of the image. Accepts a number or a string representing width value. Default: `screenWidth * 0.9`.
-- `h`: (Optional) Height of the image. Accepts a number or a string representing height value. Default: `screenHeight * 0.5`.
+- `w`: (Optional) Width of the image. Accepts a number or a string representing width value.
+- `h`: (Optional) Height of the image. Accepts a number or a string representing height value.
+- `of`: (Optional) Object Fit of the image. Accepts any of the values: `'cover' | 'contain' | 'fill' | 'scale-down' | undefined`;
 - `bgc`: (Optional) Background color of the image. Accepts a string representing a color code.
 - `ai`: (Optional) Align items. Accepts one of: 'flex-start', 'flex-end', 'center', 'stretch'. Default: `undefined`.
 - `jc`: (Optional) Justify content. Accepts one of: 'flex-start', 'flex-end', 'center', 'space-between', 'space-around'. Default: `undefined`.
