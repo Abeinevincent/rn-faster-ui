@@ -6,6 +6,8 @@ exports[`CView Component renders children correctly 1`] = `
   style={
     {
       "backgroundColor": "green",
+      "height": 300,
+      "width": 200,
     }
   }
   testID="cview"
