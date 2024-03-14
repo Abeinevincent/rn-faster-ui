@@ -25,7 +25,17 @@ Checkout its props and usage here: [CButton Component Documentation](../core/but
 
 ### CTextInput
 
-The `CTextInput` component is a custom `TextInput` component that extends the functionality of the React Native `TextInput`.
+The `CPhoneNumberInput` component is a wrapper around the `PhoneInput` component from `react-native-phone-number-input`. It provides a customizable input field for phone numbers with additional features like support for country codes
+Checkout its props and usage here: [CPhoneNumberInput Component Documentation](../core/input/numberinput/CPhoneNumberInput.md)
+
+### CSelect
+
+The `CSelect` component is a wrapper around the `SelectBox` component from `react-native-multi-selectbox`. It provides a customizable select box for selecting options from a list.
+Checkout its props and usage here: [CSelect Component Documentation](../core/select/CSelect.md)
+
+### CPhoneNumberInput
+
+The `CPhoneNumberInput` component is a custom `TextInput` component that extends the functionality of the React Native `TextInput`.
 Checkout its props and usage here: [CTextInput Component Documentation](../core/input/textinput/CTtextInput.md)
 
 ### CFlatList
@@ -49,3 +59,8 @@ Checkout its props and usage here: [CSafeAreaView Component Documentation](../co
 
 The `CIcon` component provides a reusable wrapper for rendering icons from various icon families using the `react-native-vector-icons` library.
 Checkout its props and usage here: [CIcon Component Documentation](../reusable/icon/CIcon.md)
+
+### CModal
+
+The `CModal` component provides a reusable modal component for rendering modalsand extends the functionalit of react-native `Modal` component.
+Checkout its props and usage here: [CModal Component Documentation](../core/modal/CModal.md)

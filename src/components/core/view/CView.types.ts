@@ -11,6 +11,13 @@ export interface ICView extends ViewProps, IReusableStyleTypes {
   bfv?: 'visible' | 'hidden'; // backfaceVisibility
   w?: DimensionValue; // width(required)
   h?: DimensionValue; // height(required)
+  sc?: string; //shadowColor
+  sot?: {
+    width: number;
+    height: number;
+  }; //'shadowOffset',
+  so?: number; // 'shadowOpacity',
+  sr?: string | number; //'shadowRadius',
   bgc?: ColorValue | string; // backgroundColor (required)
   bc?: string; // borderColor
   bci?: 'circular' | 'continuous'; // borderCurve iOS

@@ -4,6 +4,12 @@ import { type ImageStyle, type TextStyle, type ViewStyle } from 'react-native';
 export const viewStyleMapper = () => {
   // Define mapping for custom props to their corresponding style props
   const styleMapping: { [key: string]: keyof ViewStyle } = {
+    w: 'width',
+    h: 'height',
+    sc: 'shadowColor',
+    sot: 'shadowOffset',
+    so: 'shadowOpacity',
+    sr: 'shadowRadius',
     bfv: 'backfaceVisibility',
     bbc: 'borderBottomColor',
     bber: 'borderBottomEndRadius',

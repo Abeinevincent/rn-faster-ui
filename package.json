@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "example": "yarn workspace rn-faster-ui-example",
-    "test": "jest --watchAll",
+    "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
@@ -75,6 +75,7 @@
     "react-native-builder-bob": "^0.20.0",
     "react-native-orientation-locker": "^1.6.0",
     "react-native-phone-number-input": "^2.1.0",
+    "react-native-svg": "^12.1.0",
     "react-native-system-navigation-bar": "^2.6.4",
     "react-test-renderer": "^18.2.0",
     "release-it": "^15.0.0",
@@ -166,6 +167,10 @@
     ]
   },
   "dependencies": {
+    "@gorhom/bottom-sheet": "^4.6.1",
+    "react-native-gesture-handler": "^2.15.0",
+    "react-native-multi-selectbox": "^1.5.0",
+    "react-native-reanimated": "latest",
     "react-native-vector-icons": "^10.0.3"
   }
 }

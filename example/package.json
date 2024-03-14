@@ -10,8 +10,12 @@
     "build:ios": "cd ios && xcodebuild -workspace FastUiExample.xcworkspace -scheme FastUiExample -configuration Debug -sdk iphonesimulator CC=clang CPLUSPLUS=clang++ LD=clang LDPLUSPLUS=clang++ GCC_OPTIMIZATION_LEVEL=0 GCC_PRECOMPILE_PREFIX_HEADER=YES ASSETCATALOG_COMPILER_OPTIMIZATION=time DEBUG_INFORMATION_FORMAT=dwarf COMPILER_INDEX_STORE_ENABLE=NO"
   },
   "dependencies": {
+    "@gorhom/bottom-sheet": "^4.6.1",
+    "lodash": "^4.17.21",
     "react": "18.2.0",
     "react-native": "0.73.5",
+    "react-native-gesture-handler": "^2.15.0",
+    "react-native-svg": "^12.1.0",
     "react-native-vector-icons": "^10.0.3"
   },
   "devDependencies": {
@@ -21,6 +25,7 @@
     "@react-native/babel-preset": "0.73.21",
     "@react-native/metro-config": "0.73.5",
     "@react-native/typescript-config": "0.73.1",
+    "@types/lodash": "^4.17.0",
     "babel-plugin-module-resolver": "^5.0.0"
   },
   "engines": {

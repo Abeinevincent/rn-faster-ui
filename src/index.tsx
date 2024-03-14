@@ -2,6 +2,7 @@ import { CText } from './components/core/text/CText';
 import { CView } from './components/core/view/CView';
 import { CScrollView } from './components/core/scrollview/CScrollView';
 import { CIcon } from './components/reusable/icon/CIcon';
+import { CModal } from './components/core/modal/CModal';
 import { CButton } from './components/core/button';
 import { CTextInput } from './components/core/input/textinput/CTextInput';
 import { CImage } from './components/core/image/CImage';
@@ -15,7 +16,7 @@ import { usePortraitLocker } from './hooks/orientation/usePortraitLocker';
 import { useAsyncStorageStore } from './hooks/asyncstorage/useAsyncStorageStore';
 import { useShowSystemNavbarColorTheme } from './hooks/apperance/useSystemNavbarColorTheme';
 import { CPhoneNumberInput } from './components/core/input/numberinput/CPhoneNumberInput';
-// import { CSelect } from './components/core/select/CSelect';
+import { CSelect } from './components/core/select/CSelect';
 
 import { screenWidth, screenHeight } from './components/utils/dimensions';
 
@@ -34,6 +35,10 @@ export type { ICScrollView } from './components/core/scrollview/CScrollView.type
 // Export CIcon and its interface
 export { CIcon };
 export { type ICIcon } from './components/reusable/icon/CIcon';
+
+// Export CModal and its interface
+export { CModal };
+export { type ICModal } from './components/core/modal/CModal.type';
 
 // Export CButton and its interface
 export { CButton };
@@ -65,6 +70,10 @@ export { type ICSafeAreaView } from './components/core/safeareaview/CSafeAreaVie
 // Export CTextInput and its interface
 export { CPhoneNumberInput };
 export { type ICPhoneNumberInput } from './components/core/input/numberinput/CPhoneNumberInput.type';
+
+// Export CSelect and its interface
+export { CSelect };
+export { type ICSelect } from './components/core/select/CSelect.type';
 
 // Export colors and their interface
 export { type ICColors } from './colors/colors.type';
