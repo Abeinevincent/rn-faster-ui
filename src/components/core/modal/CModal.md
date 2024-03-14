@@ -56,10 +56,24 @@ const ExampleComponent = () => {
     <>
       <Button title="Open Modal" onPress={() => setModalVisible(true)} />
       <CModal modalVisible={modalVisible} setModalVisible={setModalVisible}>
-        <View style={{ padding: 20 }}>
-          <Text>This is a modal content.</Text>
-          <Button title="Close Modal" onPress={() => setModalVisible(false)} />
-        </View>
+        <CView
+          el={5}
+          ai="center"
+          p={35}
+          br={20}
+          bc="white"
+          bgc={'white'}
+          w={screenWidth * 0.8}
+          h={screenHeight * 0.5}
+        >
+          <CText c="black">Hello World!</CText>
+          <Pressable
+            style={[styles.button, styles.buttonClose]}
+            onPress={() => props.setModalVisible(!props.modalVisible)}
+          >
+            <Text style={styles.textStyle}>Hide Modal</Text>
+          </Pressable>
+        </CView>
       </CModal>
     </>
   );
