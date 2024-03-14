@@ -53,14 +53,14 @@ Checkout its props and usage here: [CSectionList Component Documentation](../cor
 A custom `SafeAreaView` component with additional styling capabilities to enhance faster styling.
 Checkout its props and usage here: [CSafeAreaView Component Documentation](../core/safeareaview/CSafeAreaView.md)
 
+### CModal
+
+The `CModal` component provides a reusable modal component for rendering modals and extends the functionality of react-native `Modal` component.
+Checkout its props and usage here: [CModal Component Documentation](../core/modal/CModal.md)
+
 ## Reusable Components
 
 ### CIcon
 
 The `CIcon` component provides a reusable wrapper for rendering icons from various icon families using the `react-native-vector-icons` library.
 Checkout its props and usage here: [CIcon Component Documentation](../reusable/icon/CIcon.md)
-
-### CModal
-
-The `CModal` component provides a reusable modal component for rendering modalsand extends the functionalit of react-native `Modal` component.
-Checkout its props and usage here: [CModal Component Documentation](../core/modal/CModal.md)
