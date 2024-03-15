@@ -9,8 +9,6 @@ import {
   CPhoneNumberInput,
   useHideSystemNavbar,
   useShowSystemNavbarColorTheme,
-  // useAsyncStorageStore,
-  // usePortraitLocker,
   useDeviceColorThemeDetector,
 } from 'rn-faster-ui';
 import CTextUsage from './components/CTextUsage';
