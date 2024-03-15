@@ -7,11 +7,26 @@ import {
   CModal,
   CView,
   CPhoneNumberInput,
+  useHideSystemNavbar,
+  useShowSystemNavbarColorTheme,
+  // useAsyncStorageStore,
+  // usePortraitLocker,
+  useDeviceColorThemeDetector,
 } from 'rn-faster-ui';
 import CTextUsage from './components/CTextUsage';
 
 export default function App() {
   const [modalVisible, setModalVisible] = React.useState(false);
+
+  useHideSystemNavbar();
+
+  useShowSystemNavbarColorTheme('red', 'light');
+
+  const { themecolor } = useDeviceColorThemeDetector();
+
+  React.useEffect(() => {
+    console.log(themecolor);
+  }, [themecolor]);
 
   return (
     <CView h={'100%'}>

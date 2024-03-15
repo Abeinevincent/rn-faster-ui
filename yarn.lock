@@ -11272,6 +11272,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-svg@npm:^15.1.0":
+  version: 15.1.0
+  resolution: "react-native-svg@npm:15.1.0"
+  dependencies:
+    css-select: ^5.1.0
+    css-tree: ^1.1.3
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: a3694b74097e56a810a9142c9480532b63fb9cac0ff8b74c038478172d09acdb4077d93cfa53a8bb31e7ec1a9fc9f6e81a95b028c64af5370b5b3534c99aee0b
+  languageName: node
+  linkType: hard
+
 "react-native-system-navigation-bar@npm:^2.6.4":
   version: 2.6.4
   resolution: "react-native-system-navigation-bar@npm:2.6.4"
@@ -11932,7 +11945,7 @@ __metadata:
     react-native-orientation-locker: ^1.6.0
     react-native-phone-number-input: ^2.1.0
     react-native-reanimated: latest
-    react-native-svg: ^12.1.0
+    react-native-svg: ^15.1.0
     react-native-system-navigation-bar: ^2.6.4
     react-native-vector-icons: ^10.0.3
     react-test-renderer: ^18.2.0

@@ -9,8 +9,8 @@ import { CImage } from './components/core/image/CImage';
 import { CFlatList } from './components/core/flatlist/CFlatList';
 import { CSectionList } from './components/core/sectionlist/CSectionList';
 import { CSafeAreaView } from './components/core/safeareaview/CSafeAreaView';
-
 import { colors } from './colors/colors';
+import { useHideSystemNavbar } from './hooks/apperance/useSystemNavbarColorTheme';
 import { useDeviceColorThemeDetector } from './hooks/apperance/useDeviceColorThemeDetector';
 import { usePortraitLocker } from './hooks/orientation/usePortraitLocker';
 import { useAsyncStorageStore } from './hooks/asyncstorage/useAsyncStorageStore';
@@ -83,4 +83,5 @@ export { colors };
 export { useAsyncStorageStore };
 export { usePortraitLocker };
 export { useShowSystemNavbarColorTheme };
+export { useHideSystemNavbar };
 export { useDeviceColorThemeDetector };
