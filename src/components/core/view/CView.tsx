@@ -12,7 +12,7 @@ export const CView: React.FC<ICView> = ({
 }) => {
   // Create default style object
   const viewStyle: ViewStyle = {
-    backgroundColor: bgc ? bgc : 'white',
+    backgroundColor: bgc ? bgc : 'transparent',
   };
 
   // Iterate through props and apply corresponding style props dynamically
